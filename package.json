@@ -13,5 +13,8 @@
   "scripts": {
     "build": "./node_modules/.bin/babel src -d lib",
     "block": "node lib/app.js"
+  },
+  "dependencies": {
+    "sha256": "^0.2.0"
   }
 }
